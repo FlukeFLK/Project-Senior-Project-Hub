@@ -1,0 +1,107 @@
+* {
+    box-sizing: border-box;
+}
+
+body {
+    font-family: 'Kanit', sans-serif;
+    margin: 0;
+    padding: 0;
+}
+
+header {
+    background-color: #00766a; /* Theme color for header */
+    color: #fff;
+    font-size: 18px;
+    padding: 10px 0;
+}
+
+nav {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 0 10px;
+}
+
+.navbar-collapse {
+    display: flex;
+    justify-content: flex-end;
+}
+
+.navbar-nav {
+    flex-direction: row;
+}
+
+.nav-item {
+    margin-left: 20px;
+}
+
+.nav-link {
+    color: #fff; /* Set font color to white */
+    transition: color 0.3s; /* Add transition for smooth color change */
+}
+
+.nav-link:hover {
+    color: #d9d9d9; /* Darker color on hover */
+}
+
+.page-item.active .page-link {
+    background-color: #00766a; /* Theme color for active page link */
+    border-color: #00766a;
+    color: #fff;
+}
+
+/* Additional Styles */
+h2 {
+    color: #00766a; /* Theme color for section titles */
+}
+
+.card {
+    border: none; /* Remove card borders */
+    background-color: #fff; /* White background for cards */
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1); /* Add shadow effect */
+}
+
+.card-title {
+    color: #00766a; /* Theme color for card titles */
+}
+
+.card-text {
+    color: #555; /* Darker text color for card content */
+}
+
+#footerSection {
+    background-color: #00766a; /* Theme color for footer */
+    color: #fff; /* White text color for footer */
+}
+.creator-card {
+    background-color: #fff;
+    border-radius: 10px;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+    padding: 20px;
+    width: 300px; /* Set the width of the card */
+}
+
+.creator-image {
+    max-width: 100%;
+    height: auto;
+    border-radius: 50%;
+}
+
+.creator-details {
+    padding: 10px 0;
+}
+
+.creator-details h2 {
+    font-size: 1.5rem;
+    margin-bottom: 5px;
+}
+
+.creator-details p {
+    font-size: 1rem;
+    margin: 0;
+}
+.service-icon {
+    width: 350px; /* Adjust the width as needed */
+    height: auto; /* Adjust the height as needed */
+    border-radius: 4%; /* Makes the image appear more rounded */
+}
